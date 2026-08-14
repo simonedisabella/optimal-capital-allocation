@@ -1,0 +1,16 @@
+# Market data / source documents
+*.xlsx
+*.xls
+*.pdf
+Report_Metriche_VT.xlsx
+
+# MATLAB temporary files
+*.asv
+*.m~
+*.autosave
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
