@@ -74,9 +74,9 @@ Complete static outputs are available in:
 
 ## Exact submitted MATLAB output gallery
 
-**Output policy:** no chart below has been redrawn, smoothed or restyled. The nine PNGs preserve the pixels of the raster images embedded in the submitted PDF report.
+The nine PNGs preserve the raster images embedded in the submitted PDF report; they have not been redrawn or restyled.
 
-The MATLAB source creates **three diagnostics for each of the five equities** (15 diagnostic figures) plus **six rolling allocation figures**. The submitted report archives the three NVDA diagnostics as representative examples and all six rolling figures. This repository therefore publishes **all nine graphical outputs recoverable exactly from the submitted report** and does **not fabricate the other twelve diagnostic exports**.
+The MATLAB source creates **three diagnostics for each of the five equities** (15 diagnostic figures) plus **six rolling allocation figures**. The submitted report archives the three NVDA diagnostics as representative examples and all six rolling figures. This repository therefore publishes **all nine graphical outputs recoverable exactly from the submitted report** and does **not** add replacements for the other twelve diagnostic exports.
 
 ### NVDA diagnostics archived in the submitted report
 
@@ -139,11 +139,11 @@ The MATLAB source creates **three diagnostics for each of the five equities** (1
 
 The source expects `Dataset_risk_measure.xlsx`, worksheet `Sheet1`, with columns `Date, NVDA, TSLA, JPM, XOM, KO`.
 
-The raw workbook is **not redistributed** because the price series are third-party market data. The full group report is also omitted; only the analytical outputs and machine-readable result tables needed to understand and audit the project are included.
+The raw workbook is **not redistributed** because the price series are third-party market data. The full group report is also omitted; only the analytical outputs and machine-readable result tables needed to understand the project are included.
 
-## Audit notes
+## Verification notes
 
-A fresh audit of the supplied **MATLAB source + workbook + submitted report** confirmed that:
+A review of the supplied **MATLAB source + workbook + submitted report** confirmed that:
 
 - the public `.m` file is byte-for-byte identical to the source in the submitted ZIP;
 - the 5% VaR/TCE convention used in the source matches the assignment instruction to translate the paper's notation into the lecture convention;
@@ -158,8 +158,8 @@ Dhaene, J., Tsanakas, A., Valdez, E. A. & Vanduffel, S. (2012), **Optimal Capita
 
 ## Authorship
 
-The original coursework was completed by **Ernesto Michele Ruschena, Alberto Preti, Simone D'Isabella and Gianluca De Pieri**. Publication under this GitHub account reflects portfolio curation of a group assignment and does **not** imply sole authorship.
+The original coursework was completed by **Ernesto Michele Ruschena, Alberto Preti, Simone D'Isabella and Gianluca De Pieri**. This repository is a public copy of the group assignment and does not imply sole authorship.
 
-## Scope disclaimer
+## Scope
 
 This repository documents university coursework and historical empirical analysis. It is not investment advice or a production risk-management system.
